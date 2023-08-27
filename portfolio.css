@@ -133,6 +133,7 @@ main{
     font-size: 35px;
 }
 .about-info{
+    margin: 30px 0px;
     font-size: 18px;
     font-weight: 400;
 }
@@ -152,4 +153,52 @@ main{
 .info-content{
     font-size: 20px;
     font-weight: 700px;
+}
+
+
+
+
+/* --------------------------------i-do section add---------------- */
+.i-do-heading{
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.i-do-blog{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #757575;
+    margin: 50px 130px;
+    text-align: center;
+}
+
+.skill-section{
+    display: flex;
+}
+.skill{
+    width: 267px;
+height: 377px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+margin: 30px;
+}
+.skill-img{
+    margin: 30px 30px;
+   
+}
+.skill-heading{
+    margin: 0px 30px;
+    text-align: center;
+
+}
+.skill-blog{
+    font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin: 20px 30px;
+text-align: center;
 }
