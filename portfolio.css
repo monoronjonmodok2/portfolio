@@ -1,5 +1,6 @@
 *{
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 
 .praimary-color{
@@ -14,6 +15,9 @@
     
     width: 100%;
     background-color: #FFF8F3;
+    background-image:url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
 }
 
 
@@ -25,6 +29,7 @@
 .nav-title{
     font-size: 45px;
     font-weight: 800px;
+    margin-left: 10%;
 }
 
 .nav-btn{
@@ -47,4 +52,104 @@ ul>li>a{
     padding: 18px 35px;
     background-color: #FD6E0A;
     border-radius: 5px;
+}
+
+
+
+/* ------------------banner part design--------------- */
+
+.banner{
+    margin-top:0px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.banner-txt{
+    padding: 0px 0px 0px 150px;
+  
+    
+    
+    
+}
+
+.banner-header{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600px;
+}
+
+.banner-heading{
+    font-size: 70px;
+    font-weight: 700px;
+
+}
+.banner-discription{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/* -------------------banner image---------------- */
+
+.banner-profile{
+    padding-left: 22%;
+    width: 584px;
+    height: 676px;
+}
+.img{
+    margin-bottom: 0px;
+}
+
+
+
+
+main{
+    max-width: 1140px;
+    margin:  130px auto;
+    
+}
+
+.about{
+    max-height:550px;
+    background-color: #FFF8F3;
+   text-align: center;
+   padding: 156px 200px;
+   
+
+   
+    
+}
+
+.about-txt{
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+}
+.about-info{
+    font-size: 18px;
+    font-weight: 400;
+}
+.info{
+    display: flex;
+}
+.info>ul>li{
+    list-style: none;
+    text-decoration: none;
+}
+.info-header{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.info-content{
+    font-size: 20px;
+    font-weight: 700px;
 }
